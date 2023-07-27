@@ -253,6 +253,13 @@ nav,a{
 .Group-65{
     width: 100%;
 }
+.jk{
+    background-color: #0B0223;
+    gap: 20px;
+    text-align: center;
+}
+
+
 @media screen and (max-width :546px) {
    nav,.nav-content,nav >ul,.sec-cont,.sec-des,.but,.Sing-in,.Go,.sa{
     flex-direction: column;
