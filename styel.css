@@ -1,5 +1,6 @@
 body{
     font-family: Work Sans;
+    width: 100%;
 }
 header{
     /* width: 1200px; */
@@ -193,6 +194,64 @@ nav,a{
 .banner-content{
    display: grid;
    grid-template-columns: repeat(1,1fr);
+}
+.content{
+    background-color: #F948B2;
+   
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+}
+.ff{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+.a{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.b{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.c{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+}
+.see{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    border-radius: 48px;
+    background: #FFF;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.Group-65{
+    width: 100%;
 }
 @media screen and (max-width :546px) {
    nav,.nav-content,nav >ul,.sec-cont,.sec-des,.but,.Sing-in,.Go,.sa{
